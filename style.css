@@ -1,0 +1,115 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --dark-bg-color-fallback: #232526;
+  --dark-bg-color-1: #171717;
+  --dark-bg-color-2: #0f0f0f;
+
+  --light-bg-color-fallback: #ece9e6;
+  --light-bg-color-1: #ece9e6;
+  --light-bg-color-2: #ffffff;
+
+  --font-color: rgb(218, 218, 218);
+  --accent-color: #dcc869;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(./ASSETS/Fonts/Helvetica\ Neue\ LT\ 43\ Light\ Extended.ttf);
+}
+
+body {
+  color: var(--font-color);
+  font-family: myFirstFont;
+  font-size: 18px;
+
+  background: var(--main-bg-color-fallback); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    var(--dark-bg-color-1),
+    var(--dark-bg-color-2)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    var(--dark-bg-color-1),
+    var(--dark-bg-color-2)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-light {
+  color: var(--dark-bg-color-fallback);
+  background: var(--light-bg-color-fallback); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    var(--light-bg-color-1),
+    var(--light-bg-color-2)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    var(--light-bg-color-1),
+    var(--light-bg-color-2)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wrapper {
+  border: 1px solid white;
+
+  padding: 2em 0em;
+  width: 100%;
+}
+
+.inner-wrapper {
+  border: 1px solid white;
+
+  width: 80%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+}
+
+.nav-items {
+  margin-top: 1.25rem;
+  border-top: 2px solid var(--font-color);
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style-type: none;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.nav-links > li {
+  border: 1px solid white;
+}
+.nav-logo {
+  min-width: 15%;
+  max-width: 100px;
+}
+
+.active {
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.hero-image-wrapper {
+  height: 50vh;
+
+  background-image: url(./ASSETS/Images/pexels-pixabay-159832.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  font-size: 0.75rem;
+}
