@@ -19,7 +19,7 @@
                     <img class="nav-logo" src="./ASSETS/Images/Singh-Legal-Document-Solutions_S6.jpg" alt="">
                 </a>
                 <ul class="nav-links nav-links__primary">
-                    <li class="active">Home</li>
+                    <li class="accent-border-bottom">Home</li>
                     <li class="">About MLDS</li>
                     <li class="">Meet MLDS</li>
                     <li class="">Contact</li>
@@ -41,58 +41,77 @@
 
     <div class="wrapper bg-light">
         <div class="inner-wrapper">
-            <h2>OUR SERVICES</h2>
-            <p>MLDS works closely with clients to provide them with professional legal documents that are individually catered to their needs and prepared at their specific direction.</p>
-            <p>MLDS prepares legal documents for clients representing themselves in legal matters.</p>
+            <h2 class="accent-border-bottom" style="width: fit-content;">OUR SERVICES</h2>
+            <p style="max-width: 800px;">MLDS works closely with clients to provide them with professional legal documents that are individually catered to their needs and prepared at their specific direction.</p>
+            <p style="max-width: 800px;">MLDS prepares legal documents for clients representing themselves in legal matters.</p>
         </div>
     </div>
 
     <div class="wrapper">
-        <div class="inner-wrapper">
-            <div class="cards">
-                <h3>LANDLORD - TENANT</h3>
-                <p>Quick & Efficient Notices, Unlawful Detainers & More</p>
-                <button>Request a Quote</button>
+        <div class="inner-wrapper container">
+            <div class="cards row">
+                <div class="card-image-container col-6"></div>
+                
+                <div class="card-description col-6">
+                    <div class="edge-border"></div>
+                    <h3>LANDLORD - TENANT</h3>
+                    <p style="max-width: 250px;">Quick & Efficient Notices, Unlawful Detainers & More</p>
+                    <button class="card-button accent-border-bottom">Request a Quote</button>
+                </div>
             </div>
         
-            <div class="cards">
-                <h3>BUSINESS STARTUP SERVICES</h3>
-                <p>Entity Formation, Fictitious Business Name Filings, Federal EIN Filings & More</p>
-                <button>Request a Quote</button>
+            <div class="cards row">
+                <div class="card-image-container col-6"></div>
+
+                <div class="card-description col-6">
+                    <h3>BUSINESS STARTUP SERVICES</h3>
+                    <p style="max-width: 250px;">Entity Formation, Fictitious Business Name Filings, Federal EIN Filings & More</p>
+                    <button class="card-button accent-border-bottom">Request a Quote</button>
+                </div>
             </div>
         
-            <div class="cards">
-                <h3>DEEDS & REAL PROPERTY DOCUMENTS</h3>
-                <p>Grant Deeds, Quitclaim Deeds, Deeds of Trust, Reconveyance Deeds & More</p>
-                <button>Request a Quote</button>
+            <div class="cards row">
+                <div class="card-image-container col-6"></div>
+                <div class="card-description col-6">
+                    <h3>DEEDS & REAL PROPERTY DOCUMENTS</h3>
+                    <p style="max-width: 250px;">Grant Deeds, Quitclaim Deeds, Deeds of Trust, Reconveyance Deeds & More</p>
+                    <button class="card-button accent-border-bottom">Request a Quote</button>
+                </div>
             </div>
         
-            <div class="cards">
-                <h3>ESTATE PLANNING DOCUMENTS</h3>
-                <p>
-                    Wills, Trusts, Durable Powers of Attorney,
-                    Advanced Healthcare Directives
-                </p>
-                <button>Request a Quote</button>
+            <div class="cards row">
+                <div class="card-image-container col-6"></div>
+
+                <div class="card-description col-6">
+                    <h3>ESTATE PLANNING DOCUMENTS</h3>
+                    <p style="max-width: 250px;">Wills, Trusts, Durable Powers of Attorney, Advanced Healthcare Directives</p>
+                    <button class="card-button accent-border-bottom">Request a Quote</button>
+                </div>
             </div>
+            <p class="mt-5 mb-2 text-center">Get in touch today to learn more about our services.</p>
         </div>
     </div>
 
     <div class="wrapper bg-light">        
         <div class="inner-wrapper contact">
-            <p>Get in touch today to learn more about our services.</p>
-            <form action="">
-                <label for="name">Name</label>
-                <input type="text" id="name">
+            <h2 class="text-uppercase">Get in Touch</h2>
+            <form action="" class="container">
+                <div class="row">
+                    <input class="col-6" type="text" id="name" value="Name">     
+                    <input class="col-6" type="text" id="email" value="Email">
+                </div>
                 
-                <label for="Email">Email</label>
-                <input type="text" id="Email">
+                <div class="row">
+                    <input class="col-11" type="text" id="subject" value="Subject">
+                </div>
                 
-                <label for="subject">Subject</label>
-                <input type="text" id="subject">
-                
-                <label for="message">Type your message here...</label>
-                <input type="text" id="message">
+                <div class="row">
+                    <textarea class="col-11" id="message" name="messade" rows="3">Message</textarea>
+                </div>
+
+                <div class="row">
+                    <button class="col-3 form-submit-button accent-border-bottom fw-bold" type="submit">Submit</button>
+                </div>
             </form>
         </div>
     </div>
@@ -101,7 +120,7 @@
         <div class="inner-wrapper">
             <div class="footer-left">
                 <p class="fw-bold text-uppercase">Legal Notices</p>
-                <div>
+                <div class="my-3">
                     <p>Registered and Bonded with Fresno County in the State of California.</p>
                     <p>LDA Registration No.: X202110000012</p>
                     <p>UDA Registration No.: D202110000002</p>
@@ -110,21 +129,25 @@
                 <p>Pursuant to Business & Professions Code § 6408.5(a): I am not an attorney. I can only provide self-help services at your specific direction.</p>
             </div>
         
-            <div class="footer-middle text-center">
+            <div class="footer-middle text-center mt-5">
                 <p class="fw-bold text-uppercase">Modern Legal Document Solutions</p>
-                <div>
+                <div class="my-3">
                     <p>info@modernlegaldocs.com</p>
                     <p>(559) 578-5713</p>
-                    <div>
-                        <p>Facebook</p>
-                        <p>Instagram</p>
-                        <p>Twitter</p>
+                    <div class="d-flex justify-content-center align-items-center gap-2 ">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
                     </div>
                 </div>
                 <p>© Modern Legal Document Solutions.</p>
             </div>
         </div>
     </div>    
+
+
+    
+      
 
     <script src="./ASSETS/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
 </body>

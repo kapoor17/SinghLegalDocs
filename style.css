@@ -1,6 +1,4 @@
 :root {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 
   --dark-bg-color-fallback: #232526;
@@ -15,6 +13,50 @@
   --accent-color: #dcc869;
 }
 
+h1,
+.h1,
+h2,
+.h2 {
+  font-weight: 900;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+h1,
+.h1 {
+  font-size: 1.75rem;
+}
+
+h2,
+.h2 {
+  font-size: 1.5rem;
+}
+
+,
+h3,
+.h3 {
+  font-size: 1.25rem;
+}
+
+h4,
+.h4 {
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
 @font-face {
   font-family: myFirstFont;
   src: url(./ASSETS/Fonts/Helvetica\ Neue\ LT\ 43\ Light\ Extended.ttf);
@@ -23,7 +65,7 @@
 body {
   color: var(--font-color);
   font-family: myFirstFont;
-  font-size: 18px;
+  font-size: 14px;
 
   background: var(--main-bg-color-fallback); /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -53,15 +95,20 @@ body {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.wrapper {
-  border: 1px solid white;
+.accent-border-bottom {
+  border: none;
+  border-bottom: 2px solid var(--accent-color);
+}
 
-  padding: 2em 0em;
+.wrapper {
+  //border: 1px solid white;
+
+  padding: 3em 0em;
   width: 100%;
 }
 
 .inner-wrapper {
-  border: 1px solid white;
+  //border: 1px solid white;
 
   width: 80%;
   max-width: 1500px;
@@ -86,16 +133,14 @@ body {
   align-items: center;
   gap: 1em;
 }
+
 .nav-links > li {
-  border: 1px solid white;
+  //border: 1px solid white;
 }
+
 .nav-logo {
   min-width: 15%;
   max-width: 100px;
-}
-
-.active {
-  border-bottom: 2px solid var(--accent-color);
 }
 
 .hero-image-wrapper {
@@ -110,6 +155,74 @@ body {
   align-items: center;
 }
 
+.cards + .cards {
+  margin-top: 1rem;
+}
+
+.cards {
+  //border: 1px solid white;
+
+  text-align: center;
+  font-size: 0.75rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cards:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.cards > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 40vh;
+  //border: 1px solid white;
+}
+
+.card-image-container {
+  background-image: url(./ASSETS/Images/card-image-1.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.card-description {
+  background-color: rgb(146, 146, 146, 0.075);
+}
+
+.card-button,
+.form-submit-button {
+  margin-top: 1rem;
+  padding: 0.25rem 0.5rem;
+  background: none;
+  color: var(--accent-color);
+}
+
+.contact > .container > .row + .row {
+  margin-top: 1rem;
+}
+
+.contact > .container > .row > input + input {
+  margin-left: 0.7rem;
+}
+
+.contact form input,
+textarea {
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+}
+
 .footer {
   font-size: 0.75rem;
+}
+
+.footer .footer-middle {
+  margin-top: 3rem;
+  text-align: center;
 }
