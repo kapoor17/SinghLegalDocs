@@ -11,36 +11,47 @@
 </head>
 <body>
 
-    <div class="wrapper header">
-        <div class="inner-wrapper">
-            <h2 class="text-center">MODERN LEGAL DOCUMENT SOLUTIONS</h2>
+    <div class="wrapper header" style="padding: 1.75em 0em;">
+        <div class="container-sm">
+            <h2 class="text-center pb-4" style="border-bottom: 2px solid var(--accent-color); height: 10vh;">MODERN LEGAL DOCUMENT SOLUTIONS</h2>
+            
             <nav class="nav-items">
-                <a href="#" class="nav-links nav-links__logo">
-                    <img class="nav-logo" src="./ASSETS/Images/Singh-Legal-Document-Solutions_S6.jpg" alt="">
+                <a class="nav-links nav-links__logo" href="#" style="cursor: default;">
+                    <img class="nav-logo" style="cursor: pointer;" src="./ASSETS/Images/Singh-Legal-Document-Solutions_S6.jpg" alt="">
                 </a>
-                <ul class="nav-links nav-links__primary">
-                    <li class="accent-border-bottom">Home</li>
-                    <li class="">About MLDS</li>
-                    <li class="">Meet MLDS</li>
-                    <li class="">Contact</li>
-                </ul>
-                <ul class="nav-links nav-links__socials">
-                    <li><i class="bi bi-facebook"></i></li>
-                    <li><i class="bi bi-instagram"></i></li>
-                    <li><i class="bi bi-twitter"></i></li>
-                </ul>
+                
+                <div class="nav-links nav-links__burger">
+                    <div class="opacity-screen"></div>
+
+                    <ul class="nav-links__primary">
+                        <li class="accent-border-bottom">Home</li>
+                        <li class="">About MLDS</li>
+                        <li class="">Meet MLDS</li>
+                        <li class="">Contact</li>
+                    </ul>
+                    
+                    <ul class="nav-links__socials">
+                        <li><i class="bi bi-facebook"></i></li>
+                        <li><i class="bi bi-instagram"></i></li>
+                        <li><i class="bi bi-twitter"></i></li>
+                    </ul>
+                </div>
+                
+                <div class=menu-btn>
+                    <div class="menu-btn-burger"></div>
+                </div>
             </nav>
         </div>
     </div>
 
     <div class="wrapper hero-image-wrapper">
-        <div class="inner-wrapper">
+        <div class="container-sm">
             <h1 class="text-center">MODERN SOLUTIONS FOR SELF-REPRESENTATION.</h1>
         </div>
     </div>
 
     <div class="wrapper bg-light">
-        <div class="inner-wrapper">
+        <div class="container-sm">
             <h2 class="accent-border-bottom" style="width: fit-content;">OUR SERVICES</h2>
             <p style="max-width: 800px;">MLDS works closely with clients to provide them with professional legal documents that are individually catered to their needs and prepared at their specific direction.</p>
             <p style="max-width: 800px;">MLDS prepares legal documents for clients representing themselves in legal matters.</p>
@@ -48,7 +59,7 @@
     </div>
 
     <div class="wrapper">
-        <div class="inner-wrapper container">
+        <div class="container-sm">
             <div class="cards row">
                 <div class="card-image-container col-6"></div>
                 
@@ -93,9 +104,9 @@
     </div>
 
     <div class="wrapper bg-light">        
-        <div class="inner-wrapper contact">
-            <h2 class="text-uppercase">Get in Touch</h2>
+        <div class="container-sm contact" style="max-width: 800px;">
             <form action="" class="container">
+                <h2 class="text-uppercase">Get in Touch</h2>
                 <div class="row">
                     <input class="col-6" type="text" id="name" value="Name">     
                     <input class="col-6" type="text" id="email" value="Email">
@@ -117,7 +128,7 @@
     </div>
 
     <div class="wrapper footer">
-        <div class="inner-wrapper">
+        <div class="container-sm">
             <div class="footer-left">
                 <p class="fw-bold text-uppercase">Legal Notices</p>
                 <div class="my-3">
@@ -150,5 +161,6 @@
       
 
     <script src="./ASSETS/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
