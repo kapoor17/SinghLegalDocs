@@ -11,16 +11,16 @@
 </head>
 <body>
 
-    <div class="wrapper header" style="padding: 1.75em 0em;">
-        <div class="container-sm">
-            <h2 class="text-center pb-4" style="border-bottom: 2px solid var(--accent-color); height: 10vh;">MODERN LEGAL DOCUMENT SOLUTIONS</h2>
+    <div class="wrapper header">
+        <div class="container-sm inner-header">
+            <h2 class="text-center main-title">MODERN LEGAL DOCUMENT SOLUTIONS</h2>
             
             <nav class="nav-items">
                 <a class="nav-links nav-links__logo" href="#" style="cursor: default;">
                     <img class="nav-logo" style="cursor: pointer;" src="./ASSETS/Images/Singh-Legal-Document-Solutions_S6.jpg" alt="">
                 </a>
                 
-                <div class="nav-links nav-links__burger">
+                <div class="nav-links nav-links__burger closed">
                     <div class="opacity-screen"></div>
 
                     <ul class="nav-links__primary">
@@ -105,19 +105,19 @@
 
     <div class="wrapper bg-light">        
         <div class="container-sm contact" style="max-width: 800px;">
-            <form action="" class="container">
+            <form name="contact-form" action="" class="container">
                 <h2 class="text-uppercase">Get in Touch</h2>
                 <div class="row">
-                    <input class="col-6" type="text" id="name" value="Name">     
-                    <input class="col-6" type="text" id="email" value="Email">
+                    <input onclick="updateValue(name)" class="col-6" type="text" id="name" name="name" value="Name">     
+                    <input onclick="updateValue(name)" class="col-6" type="text" id="email" name="email" value="Email">
                 </div>
                 
                 <div class="row">
-                    <input class="col-11" type="text" id="subject" value="Subject">
+                    <input onclick="updateValue(name)" class="col-11" type="text" id="subject" name="subject" value="Subject">
                 </div>
                 
                 <div class="row">
-                    <textarea class="col-11" id="message" name="messade" rows="3">Message</textarea>
+                    <textarea onclick="updateValue(name)" class="col-11" id="message" name="message" rows="3">Message</textarea>
                 </div>
 
                 <div class="row">
@@ -159,8 +159,6 @@
 
     
       
-
-    <script src="./ASSETS/bootstrap-5.1.3-dist/js/bootstrap.bundle.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>
