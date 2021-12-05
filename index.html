@@ -58,13 +58,13 @@
         </div>
     </div>
 
-    <div class="wrapper">
-        <div class="container-sm">
+    <div class="wrapper info-cards">
+        <div class="container">
+
             <div class="cards row">
                 <div class="card-image-container col-6"></div>
                 
                 <div class="card-description col-6">
-                    <div class="edge-border"></div>
                     <h3>LANDLORD - TENANT</h3>
                     <p style="max-width: 250px;">Quick & Efficient Notices, Unlawful Detainers & More</p>
                     <button class="card-button accent-border-bottom">Request a Quote</button>
@@ -108,19 +108,10 @@
             <form name="contact-form" action="" class="container">
                 <h2 class="text-uppercase">Get in Touch</h2>
                 <div class="row">
-                    <input onclick="updateValue(name)" class="col-6" type="text" id="name" name="name" value="Name">     
-                    <input onclick="updateValue(name)" class="col-6" type="text" id="email" name="email" value="Email">
-                </div>
-                
-                <div class="row">
-                    <input onclick="updateValue(name)" class="col-11" type="text" id="subject" name="subject" value="Subject">
-                </div>
-                
-                <div class="row">
-                    <textarea onclick="updateValue(name)" class="col-11" id="message" name="message" rows="3">Message</textarea>
-                </div>
-
-                <div class="row">
+                    <input class="col-6" type="text" id="name" name="name" value="Name">     
+                    <input class="col-6 ms-auto" type="text" id="email" name="email" value="Email">
+                    <input class="col-12" type="text" id="subject" name="subject" value="Subject">
+                    <textarea class="col-12" id="message" name="message" rows="3">Message</textarea>
                     <button class="col-3 form-submit-button accent-border-bottom fw-bold" type="submit">Submit</button>
                 </div>
             </form>

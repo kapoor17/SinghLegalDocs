@@ -233,6 +233,91 @@ body {
   }
 }
 
+.hero-image-wrapper {
+  height: 50vh;
+
+  background-image: url(./ASSETS/Images/pexels-pixabay-159832.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards + .cards {
+  margin-top: 1rem;
+}
+
+.info-cards > .container > .row > .col-6 {
+  width: 47.5%;
+}
+
+.cards {
+  text-align: center;
+  font-size: 0.75rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.cards:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.cards > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 40vh;
+}
+
+.card-image-container {
+  background-image: url(./ASSETS/Images/card-image-1.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.card-description {
+  background-color: rgb(146, 146, 146, 0.075);
+}
+
+.card-button,
+.form-submit-button {
+  margin-top: 1rem;
+  padding: 0.25rem 0.5rem;
+  background: none;
+  color: var(--accent-color);
+}
+
+.contact > .container > .row > .col-12 {
+  margin-top: 0.7rem;
+}
+
+.contact > .container > .row > .col-6 {
+  width: 47.5%;
+}
+
+.contact form input,
+textarea {
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  font-size: 0.75rem;
+}
+
+.footer .footer-middle {
+  margin-top: 3rem;
+  text-align: center;
+}
+
 @media (max-width: 568px) {
   .header {
     padding: 0.5em 0em;
@@ -286,88 +371,10 @@ body {
   .nav-links__burger > ul {
     padding-left: 0;
   }
-}
-
-.hero-image-wrapper {
-  height: 50vh;
-
-  background-image: url(./ASSETS/Images/pexels-pixabay-159832.jpg);
-  background-position: center;
-  background-size: cover;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cards + .cards {
-  margin-top: 1rem;
-}
-
-.cards {
-  //border: 1px solid white;
-
-  text-align: center;
-  font-size: 0.75rem;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-.cards:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-.cards > * {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  height: 40vh;
-  //border: 1px solid white;
-}
-
-.card-image-container {
-  background-image: url(./ASSETS/Images/card-image-1.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-
-.card-description {
-  background-color: rgb(146, 146, 146, 0.075);
-}
-
-.card-button,
-.form-submit-button {
-  margin-top: 1rem;
-  padding: 0.25rem 0.5rem;
-  background: none;
-  color: var(--accent-color);
-}
-
-.contact > .container > .row + .row {
-  margin-top: 1rem;
-}
-
-.contact > .container > .row > input + input {
-  margin-left: 0.7rem;
-}
-
-.contact form input,
-textarea {
-  border: none;
-  background: none;
-  border-bottom: 1px solid black;
-}
-
-.footer {
-  font-size: 0.75rem;
-}
-
-.footer .footer-middle {
-  margin-top: 3rem;
-  text-align: center;
+  .cards {
+    flex-direction: column;
+  }
+  .cards:nth-child(even) {
+    flex-direction: column;
+  }
 }
