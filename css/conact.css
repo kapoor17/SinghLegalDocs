@@ -1,0 +1,21 @@
+.form-submit-button {
+  margin-top: 1rem;
+  padding: 0.25rem 0.5rem;
+  background: none;
+  color: var(--accent-color);
+}
+
+.contact > .container > .row > .col-12 {
+  margin-top: 0.7rem;
+}
+
+.contact > .container > .row > .col-6 {
+  width: 47.5%;
+}
+
+.contact form input,
+textarea {
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+}

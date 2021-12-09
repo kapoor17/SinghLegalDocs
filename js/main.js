@@ -2,6 +2,8 @@
 
 const menuBtn=document.querySelector(".menu-btn");
 const navItems=document.querySelector(".nav-links__burger");
+const navLinks= navItems.querySelectorAll(".nav-links__primary li a");
+
 let menuOpen=false;
 
 const contactForm = document.querySelectorAll(".contact form .row input");
@@ -35,6 +37,13 @@ const burgerMenu=()=>{
     })
 }
 
+const checkActiveLink=()=>{
+    const currentLocation= location.href;
+    for(let i =0;i<navLinks.length;i++){
+        if(navLinks[i].href===currentLocation)
+            navLinks[i].parentElement.classList.toggle("accent-border-bottom");
+    }
+}
 
 
 
@@ -61,4 +70,5 @@ window.onresize=checkScreenWidth;
 //function calling
 
 checkScreenWidth();
+checkActiveLink();
 burgerMenu();
