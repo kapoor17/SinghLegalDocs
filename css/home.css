@@ -1,4 +1,4 @@
-.hero-image-wrapper {
+#hero-image {
   height: 50vh;
 
   background-image: url(../ASSETS/Images/pexels-pixabay-159832.jpg);
@@ -10,12 +10,12 @@
   align-items: center;
 }
 
-.cards + .cards {
-  margin-top: 1rem;
+#our-services-info-cards > .container-sm > .row > .col-6 {
+  width: 47.5%;
 }
 
-.info-cards > .container-sm > .row > .col-6 {
-  width: 47.5%;
+.cards + .cards {
+  margin-top: 1rem;
 }
 
 .cards {

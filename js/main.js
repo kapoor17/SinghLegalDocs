@@ -6,8 +6,8 @@ const navLinks= navItems.querySelectorAll(".nav-links__primary li a");
 
 let menuOpen=false;
 
-const contactForm = document.querySelectorAll(".contact form .row input");
-const cards = document.querySelectorAll(".info-cards .cards div");
+const contactForm = document.querySelectorAll("#contact form .row input");
+const cards = document.querySelectorAll("#our-services-info-cards .cards div");
 
 
 //functions

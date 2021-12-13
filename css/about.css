@@ -12,3 +12,14 @@
   right: 0;
   opacity: 0.075;
 }
+#about-hero-image {
+  height: 40vh;
+  background: url(../ASSETS/Images/pexels-pixabay-159832.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#about-us-desc {
+  background: var(--accent-color-muted);
+  color: var(--dark-bg-color-1);
+}
