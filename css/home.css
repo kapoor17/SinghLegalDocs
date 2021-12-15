@@ -44,7 +44,7 @@
 }
 
 .card-description {
-  background-color: rgb(146, 146, 146, 0.075);
+  background-color: var(--dark-bg-muted);
 }
 
 .card-button {
