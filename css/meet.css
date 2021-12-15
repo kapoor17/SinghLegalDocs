@@ -1,0 +1,34 @@
+.meet-us-hero {
+  /* background: url(../ASSETS/Images/meet-us-hero.webp);
+  background-position: center;
+  background-size: cover; */
+  background-color: rgb(159, 201, 201);
+  height: 50vh;
+}
+
+.meet-us-person {
+  /* background: url(../ASSETS/Images/meet-us.webp);
+  background-position: center;
+  background-size: cover; */
+  background-color: rgb(129, 212, 212);
+}
+.second-intro-title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.second-intro-title div {
+  max-width: 450px;
+}
+
+@media (max-width: 577px) {
+  .meet-us-hero {
+    height: 40vh;
+  }
+  .second-intro-title {
+    justify-content: center;
+  }
+  .second-intro-title div {
+    max-width: none;
+  }
+}
