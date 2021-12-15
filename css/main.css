@@ -256,14 +256,14 @@ body {
   text-align: center;
 }
 
-@media (min-width: 568px) {
+@media (min-width: 577px) {
   .menu-btn,
   .opacity-screen {
     display: none;
   }
 }
 
-@media (max-width: 568px) {
+@media (max-width: 577px) {
   .header {
     padding: 0.5em 0em;
     flex-direction: column-reverse;

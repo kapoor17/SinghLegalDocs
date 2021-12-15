@@ -12,15 +12,15 @@ const cards = document.querySelectorAll("#our-services-info-cards .cards div");
 
 //functions
 
-const checkScreenWidth=()=>{
-    var screenWidth=window.innerWidth;
-    if(screenWidth<568){
-        phoneFunctions();
-    }
-    else{
-        notPhoneFunctions();
-    }
-}
+// const checkScreenWidth=()=>{
+//     var screenWidth=window.innerWidth;
+//     if(screenWidth<568){
+//         phoneFunctions();
+//     }
+//     else{
+//         notPhoneFunctions();
+//     }
+// }
 
 const burgerMenu=()=>{
     menuBtn.addEventListener("click",()=>{
@@ -65,10 +65,10 @@ const notPhoneFunctions=()=>{
 
 //event listeners
 
-window.onresize=checkScreenWidth;
+// window.onresize=checkScreenWidth;
 
 //function calling
 
-checkScreenWidth();
+// checkScreenWidth();
 checkActiveLink();
 burgerMenu();
