@@ -54,6 +54,17 @@
   color: var(--accent-color);
 }
 
+/* #immigration-show-more {
+  padding: 1em 0em;
+  transition: height 0.25s ease-in-out;
+}
+
+#immigration-show-more.closed {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+} */
+
 @media (max-width: 576px) {
   .cards {
     flex-direction: column;

@@ -220,3 +220,70 @@
 </div>
 
 ​
+CONTEMPORARY SOLUTIONS FOR SELF-REPRESENTATION.
+OUR SERVICES
+SLDS works closely with clients to provide them with professional legal documents that are individually catered to their needs and prepared at their specific direction. SLDS prepares legal documents for clients representing themselves in legal matters.
+BUSINESS STARTUP SERVICES
+Entity Formation, Fictitious Business Name Filings, Federal EIN Filings & More
+Request a Quote
+ESTATE PLANNING DOCUMENTS
+Wills, Trusts, Durable Powers of Attorney, Advanced Healthcare Directives
+Request a Quote
+Get in touch today to learn more about our services.
+FAMILY LAW DOCUMENTS
+Divorce, Custody
+Request a Quote
+Get in touch today to learn more about our services.
+
+IMMIGRATION CONSULTANT
+Can only provide non-legal help
+Can prepare your legal forms at your direction
+Translate answers to the questions on USCIS forms
+Get copies of supporting documents
+Submit forms to USCIS per client request
+https://caials.com/
+For this part can we add info like this website please under SERVICES:
+Indian passport/ renunciation/ OCI/ VISAS
+Naturalization services
+Everything EXCEPT livescan and notary.
+Thanks!
+
+Request a Quote
+Get in touch today to learn more about our services.
+
+TRANSLATION SERVICES FOR PUNJABI/ HINDI AVAILABLE
+If you need a translator with you to speak with your attorney, we provide translation services in Punjabi.
+If you need documents translated for your matters, we provide document translation in Punjabi and Hindi.
+
+GET IN TOUCH
+Name
+Email
+Subject
+Type your message here...
+Submit
+Legal Notices
+Registered and Bonded with Kings County in the State of California. LDA Registration No: 21-010. Bond No: 7901081298. Registration and Bond expire October 11, 2023.
+Pursuant to Business & Professions Code § 6408.5(a): I am not an attorney. SLDS is not a law firm. I can only provide self-help services at your specific direction.
+Immigration Consultant Bond #******\_\_****** Registration and Bond expire**\_\_\_**
+Singh Legal Document Solutions
+Singh@singhlegaldocs.com (559) 201-8997 Facebook Instagram Twitter © Singh Legal Document Solutions.
+WHAT IS SLDS?
+A Registered & Bonded Legal Document Preparer SLDS is authorized by State Law and the County of Kings to provide legal document preparation services to those who wish to represent themselves in legal matters. A modern approach to legal document preparation and business practices allows SLDS to provide clients with quick, efficient, and professional services.
+Immigration  
+Wills & Trusts
+Business Startup  
+Family
+Translation services available for Punjabi and Hindi
+& More
+WHAT IS AN LDA?
+Legal Document Assistants (LDAs) are experienced professionals authorized by California law and the county in which they operate to assist the public in preparing legal documents. An individual must be a registered LDA to assist others with the preparation of legal documents. State law requires LDAs to be registered and bonded in the county where they operate. LDAs must meet educational and/or professional requirements to become registered.
+Searching for self-help information online can yield helpful, yet incomplete or contradictory information. As an LDA, SLDS can provide you with attorney prepared, reviewed, and approved legal information allowing you to decide how to proceed with your legal matter. SLDS can also prepare the legal documents you want completed in a professional and efficient manner, from wills and trusts to family.
+LDA VS. PARALEGAL
+Paralegals must be employed by a law firm or an attorney. Paralegals are not permitted to provide document assistance, court assistance, or document preparation to individuals. (CA Business & Professions Code § 6450.) An LDA can work individually and without supervision. The required bonds carried by LDAs provide peace of mind to their clients.
+PROUD MEMBER OF
+AMERICAN BAR ASSOCIATION: NON-ATTORNEY MEMBER "Our mission is to serve equally our members, our profession and the public by defending liberty and delivering justice as the national representative of the legal profession."
+CALIFORNIA ASSOCIATION OF LEGAL DOCUMENT ASSISTANTS: VOTING MEMBER The California Association of Legal Document Assistants was established in August 1986, and was formerly known as “California Association of Independent Paralegals” (CAIP). CALDA is the time-honored organization for legal document preparation professionals and supporters of this profession. CALDA promotes and encourages high standards of ethical and professional conduct while offering its members educational opportunities, professional alliance, a website business listing, member forum exchange, and attorney approved printed brochure materials. CALDA promotes growth, development, and recognition of the Legal Document Assistants’ profession as an integral partner in the delivery of legal services. Commitment is given to increasing public access to the legal system and CALDA recognizes the Legal Document Assistant’s professional responsibilities to the public, to the legal system, and to colleagues.
+MEET SINGH LEGAL DOCUMENT SOLUTIONS
+Sundip Singh, J.D.
+Owner | LDA
+Sundip Singh was born and raised in the Bay Area, California. She earned her Bachelors Degrees from Santa Clara University in Psychology and Political Science. She graduated with her Juris Doctor from San Joaquin College of Law. While in law school she interned with a criminal defence office, a criminal prosecution office and an immigration office. Through her work she has gained invaluable experience in criminal law and immigration law. During her free time, she likes to travel and read.
