@@ -745,7 +745,7 @@ progress {
 
 .col-10 {
   flex: 0 0 auto;
-  width: 84.5%;
+  width: 83.3333%;
 }
 
 .col-11 {
@@ -954,7 +954,7 @@ progress {
 
   .col-sm-10 {
     flex: 0 0 auto;
-    width: 83.33333333%;
+    width: calc(83.3333% + 1em);
   }
 
   .col-sm-11 {
@@ -1137,7 +1137,7 @@ progress {
 
   .col-md-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: calc(33.33333333% - 1em);
   }
 
   .col-md-5 {
