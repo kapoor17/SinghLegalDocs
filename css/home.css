@@ -55,6 +55,7 @@
 }
 #immigration-show-more .card-container > * {
   max-width: 400px;
+  height: 350px;
 }
 
 @media (max-width: 576px) {
