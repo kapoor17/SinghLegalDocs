@@ -9,6 +9,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/conact.css">
+    <style>
+        .modal-backdrop{
+            background-color: rgba(0,0,0,0.7);
+            height:100vh;
+            width:100vw;
+            position: fixed;
+            z-index: 333;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .frameModal{
+            background-color: #f1f1f1;
+            height:80%;
+            width:80%;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper" id="navbar">
@@ -43,20 +60,85 @@
             </nav>
         </div>
     </div>
-
+    <!-- <div id="iframeModal" class="modal-backdrop">
+        <div class="frameModal">
+            <div class="modal-content">
+                <object data="https://singhlegal.cliogrow.com/book/8eb1824871454ba2bf8e2fc1fafcf683"></object> 
+            </div>
+        </div>
+    </div> -->
     <div class="wrapper bg-light" id="contact">        
         <div class="container-sm contact-wrapper">
             <form name="contact-form" action="" class="container">
-                <h2 class="text-uppercase">Get in Touch</h2>
-                <div class="row">
-                    <input class="col-6" type="text" id="name" name="name" value="Name">     
-                    <input class="col-6 ms-auto" type="text" id="email" name="email" value="Email">
-                    <input class="col-12" type="text" id="subject" name="subject" value="Subject">
-                    <textarea class="col-12" id="message" name="message" rows="3">Message</textarea>
-                    <button class="col-3 form-submit-button accent-border-bottom fw-bold" type="submit">Submit</button>
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-md-7">
+                        <div class="card" style="border-radius: 5px;box-shadow: 0px 0px 10px gray;">
+                            <div class="card-body">
+                                <h2 style="margin-bottom:10px;font-size: 24px;">Schedule an Appointment</h2>
+                                <p class="p-1">
+                                   <b>
+                                       Please bring the following:
+                                   </b> 
+                                    <ul class="text-muted">
+                                        <li>Photo Identification (Driver's license/ passport, etc.)</li>
+                                        <li>Any documents related to your issue</li>
+                                        <li>Social security number (if you have it)</li>
+                                        <li>A# (if applicable)</li>
+                                    </ul>
+                                </p>
+                                <div class="row" style="margin-top: 20px;">
+                                    <div class="col-6 d-flex flex-column align-items-center" style="border-right: 2px solid #dfdfdf;">
+                                        <h1 class="text-muted">30mins</h1>
+                                        <a class="btn btn-outline-dark  btn-sm w-100 modalTrigger" href="https://singhlegal.cliogrow.com/book/8eb1824871454ba2bf8e2fc1fafcf683" target="_blank">Book Now</a>
+                                    </div>
+                                    <div class="col-6  d-flex flex-column align-items-center">
+                                        <h1 class="text-muted">1 hr</h1>
+                                        <a class="btn btn-dark btn-sm w-100 modalTrigger" href="https://singhlegal.cliogrow.com/book/8eb1824871454ba2bf8e2fc1fafcf683" target="_blank">Book Now</a>
+                                        
+                                    </div>
+                                    
+                                </div> 
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 my-sm-4" style="padding-left:20px">
+                        <h2>
+                            Reach us at
+                        </h2>
+                        <div class="d-flex align-items-center">
+                            <span style="margin-right:20px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"/>
+                                </svg>
+                            </span>
+                            <span>example@mail.com</span>
+                        </div>
+                        <div class="my-4 d-flex align-items-center">
+                            <span style="margin-right:20px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/>
+                                </svg>
+                            </span>
+                            <span>
+                                <a href="tel:(559) 201-8997"></a>(559) 201-8997</span>
+                        </div>
+                        <div class="my-4 d-flex align-items-center">
+                            <span style="margin-right:20px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
+                                </svg>
+                            </span>
+                            <span>804 N Irwin St, Hanford, CA 93230, United States</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-md-12">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1607.0358164679137!2d-119.64914617388575!3d36.33481370569091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8094c377ade5006b%3A0x4befc3cfcf6d98b7!2sStover%20Robert!5e0!3m2!1sen!2sin!4v1640298441396!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
             </form>
-            <div class="map-container py-5 my-5 border border-dark" id="map">
             </div>
         </div>
     </div>
@@ -91,7 +173,6 @@
     </div>    
     
     <script src="../js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIPyYQpNfdW_5W0aS7VR_377t7L09oiYs&callback=initMap&libraries=&v=weekly" async></script>
 
 </body>
 </html>
