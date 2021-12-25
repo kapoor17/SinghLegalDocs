@@ -1,9 +1,9 @@
 .meet-us-hero {
-  /* background: url(../ASSETS/Images/meet-us-hero.webp);
+  background: url(../ASSETS/Images/hero-image-2.jpg);
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
   background-color: rgb(159, 201, 201);
-  height: 50vh;
+  height: 55vh;
 }
 
 .meet-us-person {

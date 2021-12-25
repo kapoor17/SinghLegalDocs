@@ -1,7 +1,7 @@
 #hero-image {
   height: 50vh;
 
-  background-image: url(../ASSETS/Images/pexels-pixabay-159832.jpg);
+  background-image: url(../ASSETS/Images/main-hero-image.jpg);
   background-position: center;
   background-size: cover;
 
@@ -37,12 +37,6 @@
   height: 40vh;
 }
 
-.card-image-container {
-  background-image: url(../ASSETS/Images/card-image-1.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-
 .card-description {
   background-color: var(--dark-bg-muted);
 }
@@ -53,6 +47,18 @@
   background: none;
   color: var(--accent-color);
 }
+
+.immigration-card::after {
+  content: "";
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 #immigration-show-more .card-container > * {
   max-width: 400px;
   height: 350px;
