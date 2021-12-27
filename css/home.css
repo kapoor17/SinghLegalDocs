@@ -1,5 +1,5 @@
 #hero-image {
-  height: 50vh;
+  height: 55vh;
 
   background-image: url(../ASSETS/Images/main-hero-image.jpg);
   background-position: center;
@@ -24,7 +24,7 @@
   gap: 1em;
 }
 
-.cards:nth-child(even) {
+.cards:nth-child(odd) {
   flex-direction: row-reverse;
 }
 
@@ -48,27 +48,19 @@
   color: var(--accent-color);
 }
 
-.immigration-card::after {
-  content: "";
-  background-color: black;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 #immigration-show-more .card-container > * {
   max-width: 400px;
-  height: 350px;
+  height: 375px;
 }
 
 @media (max-width: 576px) {
+  #immigration-show-more .card-container > * {
+    height: auto;
+  }
   .cards {
     flex-direction: column;
   }
-  .cards:nth-child(even) {
+  .cards:nth-child(odd) {
     flex-direction: column;
   }
 }
