@@ -20,7 +20,7 @@
   src: url(../ASSETS/Fonts/Helvetica\ Neue\ LT\ 43\ Light\ Extended.ttf);
 }
 
-a:not(.btn-dark) {
+a:not(.normal) {
   text-decoration: none;
   color: var(--font-color);
 }
