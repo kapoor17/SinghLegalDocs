@@ -15,7 +15,7 @@
 #about-hero-image {
   height: 55vh;
   background: url(../ASSETS/Images/hero-image-3.jpg);
-  background-position: top;
+  background-position: center;
   background-size: cover;
 }
 

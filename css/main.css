@@ -189,7 +189,12 @@ body {
   transition: all 0.25s ease-out;
 }
 
+.nav-links__logo {
+  pointer-events: none;
+}
+
 .nav-logo {
+  pointer-events: all;
   min-width: 15%;
   max-width: 120px;
 }
